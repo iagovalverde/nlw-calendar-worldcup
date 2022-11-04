@@ -120,18 +120,12 @@ header {
     transform: scale(1.1);
 }
 
-.card ul li strong,
-.card ul li img {
-    transition: transform .2s;
-}
-
 .card {
     animation: appear .5s forwards;
 }
 
 @keyframes appear {
-    0% {
-        transform: translateY(-50px);
+    0% { 
         opacity: 0;
     }
 
@@ -144,6 +138,7 @@ header {
     #cards {
         max-width: 670px;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
+           
     }
 }
