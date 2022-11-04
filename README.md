@@ -3,7 +3,7 @@
 
 ![preview](./assets/preview.png)
 
-[Clique aqui para acessar]()
+[Clique aqui para acessar](https://iagovalverde.github.io/nlw-calendar-worldcup/)
 
 # Tecnologias
 
