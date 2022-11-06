@@ -21,9 +21,6 @@ body {
     background-color: #121214;
     background-image: var(--bg);
     background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 body * {
@@ -33,8 +30,8 @@ body * {
 #app {
     width: fit-content;
     margin: auto;
-    padding-top: 52px;
-    padding-bottom: 32px;
+    padding-top: 75px;
+    padding-bottom: 20px;
 }
 
 header {
@@ -135,10 +132,18 @@ header {
 }
 
 @media (min-width:700px) {
+    body {
+        background-color: #121214;
+        background-image: var(--bg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     #cards {
         max-width: 670px;
         flex-direction: row;
-        flex-wrap: wrap; 
-           
+        flex-wrap: wrap;     
     }
 }
